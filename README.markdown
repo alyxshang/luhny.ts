@@ -16,7 +16,7 @@ To find out how to use this module and which APIs this module provides you will 
 
 ### Importing
 
-Any of the functions this module provides can be imported from the following HTTP import: ``.
+Any of the functions this module provides can be imported from the following HTTP import: `https://raw.githubusercontent.com/alyxshang/luhny.ts/main/mod.ts`.
 
 ### Testing
 
