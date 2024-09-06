@@ -56,7 +56,7 @@ export function getImportantNumbers(imei: string): Array<number>{
 /**
  * Returns an array of numbers containing all the 
  * numbers that remain after putting all the numbers second from the left in an array.
- * @param {string} imei A string containg an IMEI number.
+ * @param {string} imei A string containing an IMEI number.
  * @returns {Array<number>} Returns an array of numbers containing all the 
  * numbers that remain after putting all the numbers second from the left in an array.
  */
@@ -81,7 +81,7 @@ export function getTrashNumbers(imei: string): Array<number>{
  * doubles each of these numbers, and puts the doubles into an array. This array is then returned.
  * "Important" numbers of an IMEI string are constituted of every second number from the 
  * left in an IMEI string.
- * @param {string} imei The supplied string containg an IMEI number.
+ * @param {string} imei The supplied string containing an IMEI number.
  * @returns {Array<number>} Returns a sum of all the doubles of "important" numbers in an IMEI string.
  */
 export function doubleImportantNumbers(imei: string): Array<number>{
@@ -97,7 +97,7 @@ export function doubleImportantNumbers(imei: string): Array<number>{
  * Computes the sum of all the "non-important" numbers in an IMEI string.
  * The "non-important" numbers are all the numbers that remain after 
  * putting every second number from the left in an IMEI string into a number array.
- * @param {string} imei The supplied string containg an IMEI number.
+ * @param {string} imei The supplied string containing an IMEI number.
  * @returns {number} Returns the sum of all the "non-important" numbers in an IMEI string.
  */
 export function addTrashNumbers(imei: string): number {
@@ -133,7 +133,7 @@ export function convertNumberArrayToStringArray(arr: Array<number>): Array<strin
  * together in a lump sum. The "important"
  * numbers are constituted of every second number
  * from the left in an IMEI string.
- * @param {string} imei The supplied string containg an IMEI number.
+ * @param {string} imei The supplied string containing an IMEI number.
  * @returns {number} Returns the sum of all numbers 
  * second from the left in the given IMEI string.
  */
@@ -163,7 +163,7 @@ export function getLastItem(arr: Array<string>): string {
  * "other" numbers together, subtracts the "mod 10" of that sum from 10, makes
  * a type conversion, compares the check digit and the calculated check digit,
  * and returns true or false depending on whether they match or not.
- * @param {string} imei The supplied string containg an IMEI number.
+ * @param {string} imei The supplied string containing an IMEI number.
  * @returns {boolean} Returns a boolean that reflects whether the supplied IMEI is valid or not.
  */
 export function validateIMEI(imei: string): boolean{
