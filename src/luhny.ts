@@ -135,7 +135,7 @@ export function convertNumberArrayToStringArray(arr: Array<number>): Array<strin
  * from the left in an IMEI string.
  * @param {string} imei The supplied string containing an IMEI number.
  * @returns {number} Returns the sum of all numbers 
- * second from the left in the given IMEI string.
+ * second from the left doubled in the given IMEI string.
  */
 export function addImportantDoubleDigits(imei: string): number{
     let result: number = 0;
