@@ -1,4 +1,4 @@
-name: "LUHNY CI"
+name: "LUHNY.TS CI"
 on: [push, pull_request]
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
       - name: "Run tests."
         run: deno test
       - name: "Generate documentation."
-        run: deno doc mod.ts
+        run: deno doc --html mod.ts
       - name: "Deploy the documentation."
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
