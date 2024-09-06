@@ -20,7 +20,7 @@ Any of the functions this module provides can be imported from the following HTT
 
 ### Testing
 
-To run the tests this module provides you can use the `deno test` commmand from the root of this repository.
+To run the tests this module provides you can use the `deno test` commmand. This command has to be run from the root of this repository.
 
 ## CHANGELOG :black_nib:
 
