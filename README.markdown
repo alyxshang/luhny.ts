@@ -12,7 +12,7 @@ Every digital device has a unique identifier. This identifier is the "IMEI" numb
 
 ### APIs
 
-To find out how to use this module and which APIs this module provides you will have to manually generate the documentation for this module using the `deno doc --html` command. 
+To find out how to use this module and which APIs this module provides you will have to manually generate the documentation for this module using the `deno doc --html mod.ts` command. This command has to be run from the root of this repository.
 
 ### Importing
 
@@ -28,7 +28,6 @@ To run the tests this module provides you can use the `deno test` commmand from 
 
 - Initial release.
 - Upload to GitHub.
-- Upload to NPM.
 
 ## NOTE :scroll:
 

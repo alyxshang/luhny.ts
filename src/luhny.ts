@@ -159,8 +159,8 @@ export function getLastItem(arr: Array<string>): string {
 }
 
 /**
- * Gets the check digit of your IMEI, adds the "important" and the
- * "other" numbers together, subtracts the "mod 10" from 10 of that sum, makes
+ * Gets the check digit of the supplied IMEI, adds the "important" and the
+ * "other" numbers together, subtracts the "mod 10" of that sum from 10, makes
  * a type conversion, compares the check digit and the calculated check digit,
  * and returns true or false depending on whether they match or not.
  * @param {string} imei The supplied string containg an IMEI number.
