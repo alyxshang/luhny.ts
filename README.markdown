@@ -12,11 +12,11 @@ Every digital device has a unique identifier. This identifier is the "IMEI" numb
 
 ### APIs
 
-To find out how to use this module and which APIs this module provides you can visit the documentation page [here](https://alyxshang.boo/luhny.ts).
+To find out how to use this module and which APIs this module provides, run the `deno doc --html mod.ts` command from the root of this repository.
 
 ### Importing
 
-Any of the functions this module provides can be imported from the following HTTP import: `https://raw.githubusercontent.com/alyxshang/luhny.ts/main/mod.ts`.
+Any of the functions this module provides can be imported from the following HTTPS URL: `https://raw.githubusercontent.com/alyxshang/luhny.ts/main/mod.ts`.
 
 ### Testing
 
