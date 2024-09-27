@@ -11,10 +11,3 @@ jobs:
           deno-version: 1.43.3
       - name: "Run tests."
         run: deno test
-      - name: "Generate documentation."
-        run: deno doc --html mod.ts
-      - name: "Deploy the documentation."
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
-        with:
-          branch: gh-pages
-          folder: docs
